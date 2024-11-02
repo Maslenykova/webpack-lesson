@@ -6,7 +6,7 @@ export const createLogger = (name) =>{
             logs.push(`log - ${name} - ${message}`);
         },
         error(errorText){
-            ogs.push(`log - ${name} - ${errorText}`);
+            logs.push(`log - ${name} - ${errorText}`);
         },
         getLogs(){
             return logs;
