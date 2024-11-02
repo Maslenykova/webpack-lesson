@@ -8,5 +8,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-env": "7.26.0",
+    "jest": "29.7.0"
+  }
 }
